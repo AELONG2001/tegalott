@@ -73,7 +73,7 @@ const SocketProvider = (props) => {
       }));
       console.log("error", err);
       router.push("/sign-out");
-      toast.error("Lỗi kết nối đến máy chủ.Vui lòng thử lại", {
+      toast.error("Lỗi kết nối đến máy chủ", {
         toastId: "error_connect_socket",
       });
     });
